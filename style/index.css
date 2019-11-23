@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+*:focus{
+    outline: none;
+    box-shadow: none !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Francois One', sans-serif;
+}
+/*
+#fullname,#email,#password{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white;
+}*/
+
+#fullname{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white;
+}
+#email{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white;
+}
+
+#password{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white; 
+}
+
+.generate-btn{
+    border-radius: 50px;
+    background:white;
+    padding:8px 20px;
+    font-weight:bold;
+}
+
+.submit-btn{
+    background:black;
+    padding: 10px 20px;
+    color:white;
+}
+/*password box*/
+    #pass-box{
+        position: relative;
+    }
+
+    .eye-icon{
+        position: absolute;
+        z-index: 2;
+        margin-top:15px;
+        margin-left:-40px;
+        cursor: pointer;
+    }
+
+/* end password box*/
+    #email-box{
+        position: relative;
+    }
+    #load-icon{
+        position: absolute;
+        margin-top:15px;
+        margin-left:-40px;
+        color:#ccc;
+    }
+/* end email box*/
+/*activation box*/
+#code{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white;   
+}
+/*end activation box*/
+/*login form*/
+#login-email{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white;
+}
+#login-password{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white;
+}
+#loin-code{
+    width:100% !important;
+    padding: 12px 20px;
+    border:none;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    background:white;   
+}
+.login-submit-btn{
+    background:black;
+    padding: 10px 20px;
+    color:white;
+}
+.show-icon{
+    position: absolute;
+    z-index: 2;
+    margin-top:15px;
+    margin-left:-40px;
+    cursor: pointer;
+}
+
+.login-activation{
+    margin-top:60px;
+}
+/*end login form*/
